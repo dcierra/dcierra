@@ -1,4 +1,4 @@
-![Header](https://github.com/dcierra/dcierra/blob/main/assets/qa.gif)
+![Header]()
 
 ## About me
 * I'm a beginner QA engineer
