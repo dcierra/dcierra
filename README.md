@@ -1,4 +1,4 @@
-Beader
+![Header](https://github.com/dcierra/dcierra/blob/main/assets/qa.gif)
 
 About me
 
