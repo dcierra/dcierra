@@ -1,10 +1,9 @@
 ![Header](https://github.com/dcierra/dcierra/blob/main/assets/header.jpg)
 
 ## About me
-* I'm a beginner QA engineer
+* I'm learning Python and PyQT
 * I'm learning software testing
 * I'm learning HTML, CSS
-* I'm learning Python and PyQT
 
 ## Languages & Tools
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=27A0D9)
