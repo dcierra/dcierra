@@ -1,12 +1,14 @@
 ![Header](https://github.com/dcierra/dcierra/blob/main/assets/header.jpg)
 
 ## About me
+* I'm begginer Django developer
 * I'm learning Python and PyQT
 * I'm learning software testing
 * I'm learning HTML, CSS
 
 ## Languages & Tools
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=27A0D9)
+![Django](https://img.shields.io/badge/-Django-090909?style=for-the-badge&logo=django&logoColor=27A0D9)
 ![Pyqt](https://img.shields.io/badge/-Pyqt-090909?style=for-the-badge&logo=pyqt&logoColor=27A0D9)
 ![git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=git&logoColor=27A0D9)
 ![postman](https://img.shields.io/badge/-Postman-090909?style=for-the-badge&logo=postman&logoColor=27A0D9)
@@ -24,3 +26,4 @@
 ## How to contact me
 [![TELEGRAM](https://img.shields.io/badge/-Telegram-090909?style=for-the-badge&logo=telegram&logoColor=27A0D9)](https://t.me/dcierra)
 [![VK](https://img.shields.io/badge/-VK-090909?style=for-the-badge&logo=vk&logoColor=27A0D9)](https://vk.com/tipaid)
+[![WEBSITE](https://img.shields.io/badge/-WEBSITE-090909?style=for-the-badge&logo=website&logoColor=27A0D9)](https://dcierra.ru)
