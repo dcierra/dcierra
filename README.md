@@ -1,10 +1,7 @@
 ![Header](https://github.com/dcierra/dcierra/blob/main/assets/header.jpg)
 
 ## About me
-* I'm begginer Django developer
-* I'm learning Python and PyQT
-* I'm learning software testing
-* I'm learning HTML, CSS
+* Python Developer
 
 ## Languages & Tools
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=27A0D9)
