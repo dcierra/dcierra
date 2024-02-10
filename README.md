@@ -1,7 +1,7 @@
 ![Header](https://github.com/dcierra/dcierra/blob/main/assets/header.jpg)
 
 ## About me
-* Python Developer
+* I'm Python Developer
 
 ## Languages & Tools
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=27A0D9)
