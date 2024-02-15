@@ -5,9 +5,9 @@
 
 ## Languages & Tools
 ![Python](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=python&logoColor=27A0D9)
-![SQLAlchemy](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=sqlalchemy&logoColor=27A0D9)
-![FastAPI](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=fastapi&logoColor=27A0D9)
-![Aiogram](https://img.shields.io/badge/-Python-090909?style=for-the-badge&logo=aiogram&logoColor=27A0D9)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-090909?style=for-the-badge&logo=sqlalchemy&logoColor=27A0D9)
+![FastAPI](https://img.shields.io/badge/-FastAPI-090909?style=for-the-badge&logo=fastapi&logoColor=27A0D9)
+![Aiogram](https://img.shields.io/badge/-Aiogram-090909?style=for-the-badge&logo=aiogram&logoColor=27A0D9)
 
 ![git](https://img.shields.io/badge/-Git-090909?style=for-the-badge&logo=git&logoColor=27A0D9)
 ![sql](https://img.shields.io/badge/-Sql-090909?style=for-the-badge&logo=sql&logoColor=27A0D9)
