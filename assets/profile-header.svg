@@ -1,95 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Sergey Borisov, Python Developer</title>
   <desc id="desc">Backend systems, API integrations and data processing</desc>
-
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="55%" stop-color="#111827"/>
       <stop offset="100%" stop-color="#1e1b4b"/>
     </linearGradient>
-
     <radialGradient id="blueGlow">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.42"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
-
     <radialGradient id="purpleGlow">
       <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.36"/>
       <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
     </radialGradient>
-
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
-
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="26" fill="url(#background)"/>
-  <rect width="1200" height="320" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
+  <circle cx="1120" cy="30" r="270" fill="url(#purpleGlow)"/>
+  <circle cx="760" cy="360" r="300" fill="url(#blueGlow)"/>
 
-  <circle cx="1120" cy="30" r="260" fill="url(#purpleGlow)"/>
-  <circle cx="770" cy="340" r="300" fill="url(#blueGlow)"/>
-
-  <g transform="translate(68 62)">
-    <rect x="0" y="0" width="74" height="6" rx="3" fill="url(#accent)"/>
-
-    <text x="0" y="58" fill="#f8fafc" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="1.5">
-      SERGEY BORISOV
-    </text>
-
-    <text x="0" y="102" fill="#7dd3fc" font-family="'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600">
-      Python Developer
-    </text>
-
-    <text x="0" y="146" fill="#cbd5e1" font-family="'Segoe UI', Arial, sans-serif" font-size="20">
-      Backend Systems  •  API Integrations  •  Data Processing
-    </text>
-
-    <g transform="translate(0 178)" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600">
-      <g>
-        <rect width="82" height="34" rx="17" fill="#38bdf8" fill-opacity="0.13" stroke="#38bdf8" stroke-opacity="0.55"/>
-        <text x="41" y="22" text-anchor="middle" fill="#bae6fd">FastAPI</text>
-      </g>
-      <g transform="translate(94 0)">
-        <rect width="112" height="34" rx="17" fill="#818cf8" fill-opacity="0.13" stroke="#818cf8" stroke-opacity="0.55"/>
-        <text x="56" y="22" text-anchor="middle" fill="#c7d2fe">PostgreSQL</text>
-      </g>
-      <g transform="translate(218 0)">
-        <rect width="84" height="34" rx="17" fill="#c084fc" fill-opacity="0.13" stroke="#c084fc" stroke-opacity="0.55"/>
-        <text x="42" y="22" text-anchor="middle" fill="#e9d5ff">asyncio</text>
-      </g>
-    </g>
+  <g transform="translate(68 0)">
+    <rect x="0" y="52" width="74" height="6" rx="3" fill="url(#accent)"/>
+    <text x="0" y="108" fill="#f8fafc" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" letter-spacing="1.4">SERGEY BORISOV</text>
+    <text x="0" y="148" fill="#7dd3fc" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600">Python Developer</text>
+    <text x="0" y="174" fill="#cbd5e1" font-family="'Segoe UI', Arial, sans-serif" font-size="17">Backend Systems  •  API Integrations  •  Data Processing</text>
+    <g transform="translate(0 181)"><rect width="76" height="29" rx="14.5" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55"/><text x="38" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Python</text></g>
+<g transform="translate(84 181)"><rect width="82" height="29" rx="14.5" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55"/><text x="41" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">FastAPI</text></g>
+<g transform="translate(174 181)"><rect width="80" height="29" rx="14.5" fill="#818cf8" fill-opacity="0.12" stroke="#818cf8" stroke-opacity="0.55"/><text x="40" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">asyncio</text></g>
+<g transform="translate(262 181)"><rect width="92" height="29" rx="14.5" fill="#c084fc" fill-opacity="0.12" stroke="#c084fc" stroke-opacity="0.55"/><text x="46" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Pydantic</text></g>
+<g transform="translate(362 181)"><rect width="112" height="29" rx="14.5" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.55"/><text x="56" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">SQLAlchemy</text></g>
+<g transform="translate(482 181)"><rect width="88" height="29" rx="14.5" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.55"/><text x="44" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Alembic</text></g>
+<g transform="translate(0 218)"><rect width="112" height="29" rx="14.5" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.55"/><text x="56" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">PostgreSQL</text></g>
+<g transform="translate(120 218)"><rect width="104" height="29" rx="14.5" fill="#facc15" fill-opacity="0.12" stroke="#facc15" stroke-opacity="0.55"/><text x="52" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">ClickHouse</text></g>
+<g transform="translate(232 218)"><rect width="90" height="29" rx="14.5" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="45" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">BigQuery</text></g>
+<g transform="translate(330 218)"><rect width="72" height="29" rx="14.5" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-opacity="0.55"/><text x="36" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Redis</text></g>
+<g transform="translate(410 218)"><rect width="78" height="29" rx="14.5" fill="#0ea5e9" fill-opacity="0.12" stroke="#0ea5e9" stroke-opacity="0.55"/><text x="39" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">MySQL</text></g>
+<g transform="translate(496 218)"><rect width="82" height="29" rx="14.5" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.55"/><text x="41" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Airflow</text></g>
+<g transform="translate(0 255)"><rect width="76" height="29" rx="14.5" fill="#2496ed" fill-opacity="0.12" stroke="#2496ed" stroke-opacity="0.55"/><text x="38" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Docker</text></g>
+<g transform="translate(84 255)"><rect width="68" height="29" rx="14.5" fill="#eab308" fill-opacity="0.12" stroke="#eab308" stroke-opacity="0.55"/><text x="34" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Linux</text></g>
+<g transform="translate(160 255)"><rect width="72" height="29" rx="14.5" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.55"/><text x="36" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Nginx</text></g>
+<g transform="translate(240 255)"><rect width="58" height="29" rx="14.5" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-opacity="0.55"/><text x="29" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Git</text></g>
+<g transform="translate(306 255)"><rect width="64" height="29" rx="14.5" fill="#a3e635" fill-opacity="0.12" stroke="#a3e635" stroke-opacity="0.55"/><text x="32" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Ruff</text></g>
+<g transform="translate(378 255)"><rect width="90" height="29" rx="14.5" fill="#14b8a6" fill-opacity="0.12" stroke="#14b8a6" stroke-opacity="0.55"/><text x="45" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">REST API</text></g>
+<g transform="translate(476 255)"><rect width="58" height="29" rx="14.5" fill="#fb7185" fill-opacity="0.12" stroke="#fb7185" stroke-opacity="0.55"/><text x="29" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">n8n</text></g>
+<g transform="translate(542 255)"><rect width="112" height="29" rx="14.5" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.55"/><text x="56" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">Telegram Bots</text></g>
+<g transform="translate(662 255)"><rect width="90" height="29" rx="14.5" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/><text x="45" y="19" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600">LLM APIs</text></g>
   </g>
 
-  <g transform="translate(880 55)" filter="url(#shadow)">
-    <rect width="250" height="210" rx="20" fill="#0f172a" fill-opacity="0.82" stroke="#64748b" stroke-opacity="0.28"/>
-
+  <g transform="translate(845 50)" filter="url(#shadow)">
+    <rect width="305" height="240" rx="20" fill="#0f172a" fill-opacity="0.84" stroke="#64748b" stroke-opacity="0.30"/>
     <circle cx="24" cy="24" r="5" fill="#fb7185"/>
     <circle cx="42" cy="24" r="5" fill="#fbbf24"/>
     <circle cx="60" cy="24" r="5" fill="#4ade80"/>
 
-    <text x="24" y="76" fill="#c084fc" font-family="Consolas, 'Courier New', monospace" font-size="18">async def</text>
-    <text x="123" y="76" fill="#7dd3fc" font-family="Consolas, 'Courier New', monospace" font-size="18">build</text>
-    <text x="173" y="76" fill="#e2e8f0" font-family="Consolas, 'Courier New', monospace" font-size="18">():</text>
-
-    <text x="42" y="112" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" font-size="17">api =</text>
-    <text x="104" y="112" fill="#86efac" font-family="Consolas, 'Courier New', monospace" font-size="17">FastAPI()</text>
-
-    <text x="42" y="148" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" font-size="17">data =</text>
-    <text x="112" y="148" fill="#f9a8d4" font-family="Consolas, 'Courier New', monospace" font-size="17">await</text>
-
-    <text x="42" y="182" fill="#7dd3fc" font-family="Consolas, 'Courier New', monospace" font-size="17">integrate()</text>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="14.5">
+      <text x="20" y="68"><tspan fill="#c084fc">from </tspan><tspan fill="#7dd3fc">fastapi </tspan><tspan fill="#c084fc">import </tspan><tspan fill="#86efac">FastAPI</tspan></text>
+      <text x="20" y="106"><tspan fill="#e2e8f0">app = </tspan><tspan fill="#86efac">FastAPI</tspan><tspan fill="#e2e8f0">()</tspan></text>
+      <text x="20" y="144"><tspan fill="#7dd3fc">@app.get</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="#f9a8d4">"/health"</tspan><tspan fill="#e2e8f0">)</tspan></text>
+      <text x="20" y="180"><tspan fill="#c084fc">async def </tspan><tspan fill="#7dd3fc">health</tspan><tspan fill="#e2e8f0">():</tspan></text>
+      <text x="38" y="216"><tspan fill="#c084fc">return </tspan><tspan fill="#e2e8f0">{</tspan><tspan fill="#f9a8d4">"status"</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#f9a8d4">"ok"</tspan><tspan fill="#e2e8f0">}</tspan></text>
+    </g>
   </g>
 
-  <rect x="0" y="314" width="1200" height="6" rx="3" fill="url(#accent)"/>
+  <rect x="0" y="334" width="1200" height="6" rx="3" fill="url(#accent)"/>
 </svg>
