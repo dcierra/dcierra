@@ -1,0 +1,25 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate full-year contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.SUMMARY_CARDS_TOKEN }}
+          user: dcierra
+          filename: github-metrics.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Novosibirsk
+          output_action: commit
